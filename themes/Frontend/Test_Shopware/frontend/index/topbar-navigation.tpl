@@ -5,6 +5,6 @@
 {block name='frontend_index_navigation_inline'}
     {$smarty.block.parent}
 
-    <span>&nbsp;test2_neu</span>
+    <span>&nbsp;test2_neu nochmal</span>
 
 {/block}
