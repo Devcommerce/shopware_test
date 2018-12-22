@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "67d7ff77f9532d75920b5edc8e5d077a",
+    "content-hash": "813e66289e25f0cf99ae9bc468fe92b9",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -3363,6 +3363,48 @@
                 "shopware"
             ],
             "time": "2018-11-30T13:52:01+00:00"
+        },
+        {
+            "name": "shyim/store-plugin-installer",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shyim/store-plugin-installer.git",
+                "reference": "68d7b5f83a38b6a65f71c042870cf94faa098d05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shyim/store-plugin-installer/zipball/68d7b5f83a38b6a65f71c042870cf94faa098d05",
+                "reference": "68d7b5f83a38b6a65f71c042870cf94faa098d05",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0.0",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-zip": "*",
+                "php": "^7.0.0",
+                "vlucas/phpdotenv": "~2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.6",
+                "phpunit/phpunit": "^6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Shyim\\PluginInstaller"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Shyim\\": "src/Shyim"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Composer plugin that installs automaticlly defined plugins from store",
+            "time": "2018-11-23T10:39:53+00:00"
         },
         {
             "name": "superbalist/flysystem-google-storage",

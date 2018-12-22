@@ -17,13 +17,22 @@
         "composer/installers": "^1.0",
         "shopware/shopware": "v5.5.4",
         "ocramius/package-versions": "1.2.0",
-        "vlucas/phpdotenv": "~2.0"
+        "vlucas/phpdotenv": "~2.0",
+        "shyim/store-plugin-installer": "^0.2.0"
     },
     "extra": {
         "installer-paths": {
             "Plugins/Local/Backend/{$name}/": ["type:shopware-backend-plugin"],
             "Plugins/Local/Core/{$name}/": ["type:shopware-core-plugin"],
             "Plugins/Local/Frontend/{$name}/": ["type:shopware-frontend-plugin"]
+        },
+        "plugins": {
+            "production": {
+                "SwagAdvancedCart": "2.2.0"
+            },
+            "dev": {
+                "SwagAdvancedCart": "^1.0"
+            }
         }
     },
     "include-path": [
