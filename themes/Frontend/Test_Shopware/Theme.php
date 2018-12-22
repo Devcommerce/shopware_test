@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopware\Themes\Test_shopware;
+namespace Shopware\Themes\Test_Shopware;
 
 use Shopware\Components\Form as Form;
 
@@ -13,7 +13,7 @@ Test_Shopware
 SHOPWARE_EOD;
 
     protected $description = <<<'SHOPWARE_EOD'
-
+Test_Shopware
 SHOPWARE_EOD;
 
     protected $author = <<<'SHOPWARE_EOD'
