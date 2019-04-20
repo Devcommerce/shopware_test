@@ -25,7 +25,7 @@ SHOPWARE_EOD;
 SHOPWARE_EOD;
 
     public function createConfig(Form\Container\TabContainer $container)
-    {
+    { 
     }
 
 
